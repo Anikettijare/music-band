@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* CSS applied on item box 1 */
+.item-box1{
+    position: fixed;
+    width: 100%;
+    height:50px;
+    border: 1px solid; 
+    background-color: black;
+}
+.nav-bar {
+    margin: 1px 0px 10px 10px;  
+}
+.nav-bar a {
+    margin-left: 20px; 
+    padding: 15px;
+    color:white;
+    float: left;
+    text-decoration: none;
+}
+a:hover{
+    background-color: gray;
+}
+.search-icon {
+    float:right;
+    margin: 7px 8px 0px 0px;
+}
+.search-icon a{
+    color: white;
+    padding: 15px;
+}
+.menu-bar{
+    font-size: 30px;
+    float:right;
+    display:none;
+}
+.menu-bar a i{
+    color: white;
+}
+.menu-bar a{
+    padding: 8px;
+}
+/* CSS applied on item box 2 */
+.item-box2{
+    width: 100%;
+    height:auto;
+}
+.img-slider img{
+    width: 100%;
+    height: auto;
+}
+/* CSS applied to the box 3 */
+.text h1{
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: center;
+    margin-top:97px;
+    padding: 20px;
+
+}
+.text h5{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.text p{
+    margin: 0px 250px 0px 250px;
+    text-align:justify ;
+}
+/* CSS applied to box 4 */
+.img-place{
+    margin-left: 300px;
+}
+.block-img {
+    display: inline-block;
+    padding: 20px;
+    margin-top:20px ;
+}
+.block-img p{
+    text-align: center;
+}
+.block-img img{
+    width: 160px;
+    height: 170px;
+    padding: 20px;
+}
+/* CSS applied to box 5 */
+.item-box5{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+}
+.tour-sec{
+    text-align: center;
+}
+.tour-sec h1{
+    font-weight: lighter;
+    margin: 10px;
+    padding: 15px;
+    letter-spacing: 8px;
+    color:white;
+}
+.tour-sec p{
+    font-weight: lighter;
+    font-style: italic;
+    color: gray;
+}
+.tour-sec ul{
+    margin: 10px 160px 0px 160px;
+    padding: 20px;
+    list-style-type: none;
+}
+.tour-sec ul li{
+    background-color: white;
+    color: black;
+    margin: 1px;
+    padding: 20px;
+    text-align: start;
+}
+.tour-sec ul li span{
+    background-color: rgb(228, 65, 65);
+    padding: 5px;
+    color: white;
+}
+.number{
+      float: right;
+      border-radius: 50%;
+}
+.travel-card{
+    justify-content: center;
+    margin-left: 250px;
+}
+.img-card{
+      width:220px;
+      height: auto;
+      display: inline-block;
+      margin: 10px 20px 20px 0px ;
+      padding: 20px;
+      background-color: white;   
+}
+.img-card img{
+    width: 220px;
+    height: 200px;
+}
+.img-card img:hover{
+    filter: grayscale(150%);
+}
+.img-card h1{
+    font-size: medium;
+    padding: 10px;
+}
+.img-card h5{
+    font-size: medium;
+    font-weight: lighter;
+    color: gray;
+    padding: 10px;
+}
+.img-card p{
+    font-size: medium;
+    padding: 10px;
+    text-align: justify;
+}
+.img-card button{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.img-card button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+/* CSS applied to box 6 */
+.contact-detail h1{
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+.contact-detail h5{
+    font-weight:lighter;
+    font-style: italic;
+    text-align: center;
+    color: gray;
+    padding-bottom: 20px;
+}
+.logo{
+    margin-left: 235px;
+    padding: 10px;
+    float: left;
+}
+.logo i{
+    padding: 6px;
+}
+.form-detail{
+    margin-right: 278px;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.form-detail input{
+    width: 136px;
+    margin: 2px ;
+    padding: 10px;
+}
+.form-detail form button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    float: right;
+}
+/* CSS applied to box6  */
+.map-img img{
+    width:100%;
+    height: auto;
+}
+.item-box8{
+    text-align: center;
+    background-color:whitesmoke;
+    padding: 1px;
+}
+.footer {
+    margin: 30px;
+    padding: 50px;
+}
+.footer p{
+    padding: 20px;
+}
+.footer i{
+    font-size: larger;
+    margin: 10px;
+    padding: 5px;
+}
+.footer i:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+@media  (max-width:900px){   
+    .text p{
+        margin: 0px 90px 0px 90px;
+        text-align:justify ;
+    }
+    .img-place{
+        margin-left: 48px;
+    }
+    .block-img{
+        padding: 12px;
+    }
+    .travel-card{
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .img-card{
+        width:185px;
+        height: auto;
+        display: inline-block;
+        margin: 10px 20px 20px 9px ;
+        padding: 10px;
+        background-color: white;   
+    }
+    .img-card img{
+        width: 185px;
+        height: 180px;
+    }
+    .logo{
+        margin-left: 75px;
+        padding: 10px;
+        float: left;
+    }
+    .form-detail{
+        margin-right: 60px;
+        float: right;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    .travel-card{
+        display: block;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:700px) {
+    .menu-bar{
+        margin-top: 10px;
+        display: block;
+    }
+    .nav-bar,.search-icon{
+        display: none;
+    }
+    .img-slider img{
+        width: 100%;
+        height: auto;
+        padding-top: 52px;
+    }
+    .block-img img{
+        width: 250px;
+        height: auto;
+    }
+    .block-img {
+        padding: 0px;
+        margin-top:0px ;
+    }
+    .img-place{
+        margin-left: 45px;
+        padding-top: 24px;
+    }
+    .text p{
+        margin: 0px 30px 0px 30px;
+        text-align:justify ;
+    }
+    .tour-sec ul{
+        margin: 20px;
+        padding: 20px;
+        list-style-type: none;
+    }
+    .tour-sec ul li{
+        background-color: white;
+        color: black;
+        text-align: start;
+    }
+    .travel-card{
+        display: block;
+        justify-content: center;
+        margin-left: 42px;
+    }
+    .img-card{
+        width:250px;
+        height: auto;
+    }
+    .img-card img{
+        width: 252px;
+        height: 200px;
+    }
+    .logo{
+        margin-left: 100px;
+        padding: 10px;
+    }
+    .form-detail{
+        margin-left: 60px;
+    }
+    .form-detail input{
+        margin:2px ;
+        padding: 7px;
+    }
+    .footer p{
+        padding: 12px;
+    }
+    .footer i{
+        font-size: larger;
+        margin: 2px;
+        padding: 5px;
+    }
+    .form-detail{
+        margin-right: 17px;
+    }
+    .form-detail form button{
+        margin-right: 10px;
+    }
+}
