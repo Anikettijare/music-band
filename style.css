@@ -370,3 +370,14 @@ a:hover{
         margin-right: 10px;
     }
 }
+@media (min-width:1000px) and (max-width:1200px){
+    .img-place{
+        margin-left: 185px;
+        padding-top: 24px;
+    }
+    .travel-card{
+        display: block;
+        justify-content: center;
+        margin-left: 130px;
+    }
+}
